@@ -1,9 +1,9 @@
 class Keymap < Formula
   desc "remap keyboard keys from the command line"
   homepage "https://github.com/ivangreene/keymap"
-  url "https://github.com/ivangreene/keymap/archive/v0.1.0.tar.gz"
-  version "v0.1.0"
-  sha256 "fd05aaa1778d11d4c281accc03ddd0ab799d395490ba3928f48b7fdf8336cb94"
+  url "https://github.com/ivangreene/keymap/archive/v0.1.1.tar.gz"
+  version "v0.1.1"
+  sha256 "89a8044e96e13772432b737d57540bb631480c970de6b36195c798dff3bb699a"
 
   def install
     bin.install "keymap.py" => "keymap"
